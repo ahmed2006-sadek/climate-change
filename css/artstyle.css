@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&display=swap');
+*{
+    font-family: 'El Messiri', sans-serif;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(16, 134, 5);
+    color: white;
+    z-index: 1000;
+}
+nav .title{
+    text-align: center;
+    letter-spacing:1.5px;
+    font-size: 30px;
+}
+div{
+    background-color: rgb(212, 211, 211);
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 100px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 50px;
+    direction: rtl;
+}
+.p1{
+    font-size: xx-large;
+}
+article{
+    font-size: x-large;
+}
+@media only screen and (max-width: 600px) {
+    nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: rgb(16, 134, 5);
+        color: white;
+        padding: 5px;
+        z-index: 1000;
+    }
+    nav .title{
+        text-align: center;
+        letter-spacing:1.5px;
+        font-size: 30px;
+    }
+    div{
+        width: 400px;
+    }
+}
+@media only screen and (max-width: 950px) {
+    nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: rgb(16, 134, 5);
+        color: white;
+        padding: 5px;
+        z-index: 1000;
+    }
+    nav .title{
+        text-align: center;
+        letter-spacing:1.5px;
+        font-size: 30px;
+    }
+    div{
+        width: 400px;
+    }
+}
+@media only screen and (max-width: 950px) {
+    nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: rgb(16, 134, 5);
+        color: white;
+        padding: 5px;
+        z-index: 1000;
+    }
+    nav .title{
+        text-align: center;
+        letter-spacing:1.5px;
+        font-size: 20px;
+    }
+    div{
+        width: 400px;
+    }
+}

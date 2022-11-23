@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&display=swap');
+*{
+    font-family: 'El Messiri', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(16, 134, 5);
+    color: white;
+    z-index: 1000;
+}
+nav .title{
+    text-align: center;
+    letter-spacing:1.5px;
+    font-size: 30px;
+}
+.carousel, .carousel-inner, .carousel .carousel-item img, .carousel .carousel-item video{
+    width: 850px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15px;
+}
+.carousel-item h5, .carousel-item p{
+    background-color: rgba(0, 0, 0, 0.637);
+}
+.carousel-control-next-icon{
+    color: black;
+}
+.slideTit{
+    color: black;
+    font-size: xx-large;
+    margin-top: 80px;
+    text-align: center;
+}
+hr{
+    width: 500px;
+    margin: auto;
+}
+.art{
+    background-color: rgb(173, 173, 173);
+    padding-left: 50px;
+    padding-right: 50px;
+    direction: rtl;
+    padding-bottom: 30px;
+}
+.art-dad{
+    justify-content: center;
+    display: flex;
+    flex-wrap:wrap;
+}
+.artecle{
+    background-color: white;
+    width: 250px;
+    border-radius: 15px;
+    direction: rtl;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 30px;
+    margin: auto;
+}
+.artecle:hover{
+    box-shadow: inset 5px 5px 5px 5px, 5px 5px 5px 5px;
+    transition: 1s;
+    transform: rotate(3deg);
+}
+.artecle span:hover{
+    border-radius: 20px 100px 100px 20px;
+    transition: 1s;
+}
+.artecle img{
+    width: 230px;
+    border-radius: 15px;
+}
+.artecle p{
+    font-size: x-large;
+}
+.artecle span{
+    background-color: rgb(173, 173, 173);
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: bolder;
+}
+.creator{
+    background-color: black;
+    text-align: center;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+footer{
+    padding: 50px;
+}
+footer h3{
+    direction: rtl;
+    line-height: 50px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .art-dad{
+        display: block;
+    }
+    .artecle{
+        margin-bottom: 15px;
+    }
+    .carousel, .carousel-inner, .carousel .carousel-item img, .carousel .carousel-item iframe{
+        width: 350px;
+        height: 160px;
+    }
+    nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: rgb(16, 134, 5);
+        color: white;
+        padding: 5px;
+        z-index: 1000;
+    }
+    nav .title{
+        text-align: center;
+        letter-spacing:1.5px;
+        font-size: 30px;
+    }
+    hr{
+        width: 50px;
+    }
+    iframe{
+        width: 250px;
+        height: 160px;
+    }
+}
+@media only screen and (max-width: 950px) {
+    .art-dad{
+        display: flex;
+        flex-wrap:wrap;
+    }
+    .artecle{
+        margin-bottom: 15px;
+    }
+    .carousel, .carousel-inner, .carousel .carousel-item img, .carousel .carousel-item iframe{
+        width: 350px;
+        height: 160px;
+    }
+    nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: rgb(16, 134, 5);
+        color: white;
+        padding: 5px;
+        z-index: 1000;
+    }
+    nav .title{
+        text-align: center;
+        letter-spacing:1.5px;
+        font-size: 30px;
+    }
+    hr{
+        width: 50px;
+    }
+    iframe{
+        width: 250px;
+        height: 160px;
+    }
+}
+@media only screen and (max-width: 950px) {
+    .art-dad{
+        display: flex;
+        flex-wrap:wrap;
+    }
+    .artecle{
+        margin-bottom: 15px;
+    }
+    .carousel, .carousel-inner, .carousel .carousel-item img, .carousel .carousel-item iframe{
+        width: 250px;
+        height: 160px;
+    }
+    nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: rgb(16, 134, 5);
+        color: white;
+        padding: 5px;
+        z-index: 1000;
+    }
+    nav .title{
+        text-align: center;
+        letter-spacing:1.5px;
+        font-size: 20px;
+    }
+    hr{
+        width: 50px;
+    }
+    footer h3{
+        font-size: 20px;
+    }
+    iframe{
+        width: 250px;
+        height: 160px;
+    }
+}
